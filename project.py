@@ -24,3 +24,12 @@ class Parc:
     def les_places(self):
         a=self.capacite - len(self.listvoiture)
         print(f"il reste:{a} place ")
+class Voiture:
+    def __init__(self,matricule,marque,couleur):
+        self.matricule=matricule
+        self.marque=marque
+        self.couleur=couleur
+    def afficher(self):
+        print(f"la matricule est:{self.matricule},la marque est:{self.marque}et la couleur est :{self.couleur}")
+
+p1=Parc(300,"300 rue saint clair",3)
