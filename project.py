@@ -33,3 +33,12 @@ class Voiture:
         print(f"la matricule est:{self.matricule},la marque est:{self.marque}et la couleur est :{self.couleur}")
 
 p1=Parc(300,"300 rue saint clair",3)
+v1=Voiture("HB2 224","honda","noir")
+v2=Voiture("CA 4556","ford","blanche")
+v3=Voiture("BFD 85R","bmw","noir")
+p1.entrer(v1)
+p1.entrer(v1)
+p1.entrer(v2)
+p1.entrer(v3)
+p1.sortir(v2)
+p1.les_places()
